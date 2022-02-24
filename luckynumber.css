@@ -9,14 +9,14 @@ body {
     margin-left: 50%;
     transform: translateX(-50%);
     cursor: pointer;
-    width: 30%;
+    width: 50%;
     height: 10vh;
     font-size: 2rem;
 }
 #myBtnPs{
     color: white;
     background-color: red;
-    margin-top: 10%;
+    margin-top: 1%;
     margin-left: 50%;
     transform: translateX(-50%);
     cursor: pointer;
@@ -27,6 +27,11 @@ body {
 #myBtnPs a{
     text-decoration: none;
     color: white;
+}
+.img img{
+    border-radius: 50%;
+    width: 30%;
+    margin: 5% 30%;
 }
 /* The Modal*/
 .modal {
@@ -79,6 +84,7 @@ body {
 @media only screen and (min-width: 768px) {
     #myBtn{
     margin-left: 45%;
+    height: 15vh;
     }
     #myBtnPs{
     margin-left: 45%;
@@ -96,6 +102,7 @@ body {
     #myBtn{
     width: 60%;
     margin-left: 45%;
+    height: 20vh;
     }
     #myBtnPs{
     width: 60%;
